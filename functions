@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Functions</title>
+</head>
+
+<!--Body-->
+<body>
+    <h1 id="result"></h1>
+    <h1 id="result2"></h1>
+    <h1 id="result3"></h1>
+</body>
+
+<!--Script-->
+<script>
+    // Intro
+    function welcome() {
+        document.getElementById("result").innerHTML = "Welcome to Codingal"
+    }
+    welcome()
+
+    // Addition
+    function addition() {
+        var x = 10
+        var y = 20
+
+        var sum = x + y
+
+        document.getElementById("result2").innerHTML = "The calculated result is: " + sum
+    }
+    addition()
+
+    // Multiplication
+    function multiplication(number1, number2) {
+
+        var product = number1 * number2
+
+        document.getElementById("result3").innerHTML = "The calculated result is: " + product
+    }
+    multiplication(10, 20)
+</script>
+
+</html>
